@@ -1,0 +1,51 @@
+########################################
+# Swift Travel Form Config
+########################################
+#
+#    SwiftTravelForm.Enable
+#        Description: Enable the module
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+SwiftTravelForm.Enable = 1
+#
+#    SwiftTravelForm.RequiredItem
+#        Description: Allows setting an item required in bags to activate Swift Travel Form.
+#        Default:     0 - No Item Required
+#                     xxxxx - Specify the item ID
+#
+
+SwiftTravelForm.RequiredItem = 0
+#
+#    SwiftTravelForm.RequiredEquipment
+#        Description: Allows setting a piece of gear, equipped, to be required for activating Swift Travel Form
+#        Default:     0 - No Gear Required
+#                     xxxxx - Specify the item ID of the piece of equipment
+#
+
+SwiftTravelForm.RequiredEquipment = 0
+#
+#    SwiftTravelForm.RequiredSpell
+#        Description: Allows setting a SpellID of a learned spell required to activate Swift Travel Form.
+#        Default:     0 - No Spell Required
+#                     xxxxx - Specify the SpellID
+#
+
+SwiftTravelForm.RequiredSpell = 0
+#
+#    SwiftTravelForm.MinLevel
+#        Description: Sets the minimum level required to activate Swift Travel Form
+#        Default:     60
+#                     1-80
+#
+#
+SwiftTravelForm.MinLevel = 60
+#
+#    SwiftTravelForm.NotInCombat
+#        Description: Blocks the speed increase when Travel Form is cast in combat
+#        Default:     1
+#                     1 for True, 0 for False
+#
+#
+SwiftTravelForm.NotInCombat = 1
